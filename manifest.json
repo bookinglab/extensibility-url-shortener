@@ -1,25 +1,14 @@
 {
   "bbAppManifestVersion":"1.0",
-  "name": "Glenn Test App",
-  "unique_name": "demo",
+  "name": "Bitly URL Shortner exmaple",
+  "unique_name": "bitly",
   "version": "0.1",
-  "description": "Glenn's test app",
+  "description": "An example of a URl Sortener using Bitly",
   "author": "Glenn Shoosmith",
   "licence": "GPL",
   "tags": "",
   "config": true,
-  "panels": [
-    "test_panel"
-  ],
-  "objects": [
-    "task",
-    "task_list",
-    "bb.booking"
-  ],
-  "scripts": [
-    "test_script"
-  ],
-  "liquid": [
-    "test_liquid"
+  "script_packs": [
+    "bitly_scripts"
   ]
 }
