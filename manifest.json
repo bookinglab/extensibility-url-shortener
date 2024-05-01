@@ -1,14 +1,14 @@
 {
   "bbAppManifestVersion":"1.0",
-  "name": "Bitly URL Shortner exmaple",
-  "unique_name": "bitly",
+  "name": "Custom URL Shortener",
+  "unique_name": "bl_url_shortener",
   "version": "0.1",
-  "description": "An example of a URl Sortener using Bitly",
-  "author": "Glenn Shoosmith",
-  "licence": "GPL",
+  "description": "URl Shortener",
+  "author": "bookinglab",
+  "license": "",
   "tags": "",
   "config": true,
   "script_packs": [
-    "bitly_scripts"
+    "scripts"
   ]
 }

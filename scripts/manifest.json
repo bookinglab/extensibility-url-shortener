@@ -1,0 +1,22 @@
+{
+    "version": "0.1",
+    "name": "bitly",
+    "description": "Scripts for URL shortener",
+    "platform": "nodejs18.x",
+    "created_at": "2024-04-10",
+    "updated_at": "2018-04-10",
+    "enabled": true,
+    "scripts":
+    [
+      {
+        "name":"Shorten",
+        "description":"Shorten URL",
+        "type":"Replacer",
+        "actions": ["UrlShortener"],
+        "log_type": "Tail",
+        "enabled": true,
+        "handler": "shorten"
+      }
+    ]
+  }
+  
