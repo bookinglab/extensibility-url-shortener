@@ -31,8 +31,8 @@ exports.shorten = (data, callback) => {
         .then((response) => {
             console.log(JSON.stringify(response.data));
             if (response && response.data && response.data.link) {
-                // callback(null, {result: `https://trainme.freestyle.abbott/${response.data.link}`});
-                callback(null, {result: `https://staging.bookinglab.co.uk/abbott-diabetes-care/${response.data.link}`});
+                callback(null, {result: `https://trainme.freestyle.abbott/${response.data.link}`});
+                // callback(null, {result: `https://staging.bookinglab.co.uk/abbott-diabetes-care/${response.data.link}`});
             } else {
                 callback(null, {result: url});
             }
